@@ -1,5 +1,6 @@
 import gradio as gr
 import google.generativeai as genai
+import os
 GOOGLE_API_KEY = "AIzaSyBqLE9oMs0Es1DMj8y3VsMfOSD8prb2HWE"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel(model_name="models/gemini-2.0-flash")
